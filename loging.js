@@ -51,5 +51,5 @@ function updateDisplay(event) {
 }
 
 document.addEventListener("mousemove", updateDisplay, false);
-document.addEventListener("mouseenter", updateDisplay, false);
-document.addEventListener("mouseleave", updateDisplay, false);
+document.addEventListener("mousedown", updateDisplay, false);
+document.addEventListener("mouseup", updateDisplay, false);
