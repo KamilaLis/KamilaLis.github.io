@@ -50,6 +50,6 @@ function updateDisplay(event) {
 
 }
 
-// document.addEventListener("mousemove", updateDisplay, false);
+document.addEventListener("mousemove", updateDisplay, false);
 document.addEventListener("mousedown", updateDisplay, false);
 document.addEventListener("mouseup", updateDisplay, false);
