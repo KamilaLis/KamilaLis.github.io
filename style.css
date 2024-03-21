@@ -18,11 +18,13 @@
     padding: 15px;
     /* background: #ebeeef; */
     background-image: url("bg-login-p24.jpg");
+    background-size: cover;
 }
   
   
 .wrap-login100 {
     width: 700px;
+    height: auto;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
