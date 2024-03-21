@@ -4,7 +4,7 @@
 }
 
 .container-login100 {
-    width: 100%;  
+    /* width: 100%;  
     min-height: 100vh;
     display: -webkit-box;
     display: -webkit-flex;
@@ -14,9 +14,19 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     /* padding: 15px; */
     /* background: #ebeeef; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden auto;
+    overflow-x: hidden;
+    overflow-y: auto;
     background-image: url("Zrzut_ekranu.png");
     background-size: cover;
 }
