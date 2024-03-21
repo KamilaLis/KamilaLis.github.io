@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    /* padding: 15px; */
     /* background: #ebeeef; */
     background-image: url("Zrzut_ekranu.png");
     background-size: cover;
