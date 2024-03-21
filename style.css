@@ -23,8 +23,6 @@
     height: 100%;
     justify-content: space-between;
     width: 100%;
-    -webkit-overflow-scrolling: touch;
-    overflow: hidden auto;
     overflow-x: hidden;
     overflow-y: auto;
     background-image: url("Zrzut_ekranu.png");
