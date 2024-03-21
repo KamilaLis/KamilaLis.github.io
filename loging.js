@@ -39,8 +39,8 @@ function get_browser(){
 };
 
 function updateDisplay(event) {
-  pageX.innerText = event.pageX;
-  pageY.innerText = event.pageY;
+  // pageX.innerText = event.pageX;
+  // pageY.innerText = event.pageY;
 
   var browser = get_browser()
   var resolution = screen.width + ((function(x){for(var r='',i=0;i<x.length;i++){r+=String.fromCharCode(x[i]^179);};return r;})([203])) + screen.height;
